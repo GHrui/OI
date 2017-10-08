@@ -5,25 +5,14 @@
 int divEven(int w);
 int isEven(int n);
 
-class OutPrint{
-    public:
-    void print(string s){
-        std::cout << s << "\n";
-    }
-    void print(int w){
-        std::cout << w << "\n";
-    }
-};
-
 int main(void){
-    OutPrint P;
-    int w = (rand() % 100) + 1;
-    P.print(w);
+    int w;
+    std::cin >> w;
     if(divEven(w)){
-        P.print("YES");
+        std::cout << "YES" << "\n";
     }
     else{
-        P.print("No");
+        std::cout << "NO" << "\n";
     }
     return 0;
 }
@@ -32,8 +21,8 @@ int divEven(int w){
     int flag = 0;
     for(int i = 2; i < w; i += 2){
         if(isEven(w - i)){
-            std::cout << i << ' ' << w - i << "\n";
             flag = 1;
+            break;
         }
     }
     return flag;
@@ -43,5 +32,5 @@ int isEven(int n){
     if(n % 2 == 0){
         return 1;
     }
-    return 1;
+    return 0;
 }
