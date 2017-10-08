@@ -1,27 +1,9 @@
 #include<iostream>
-#include<stdlib.h>
-
-int square(int n, int m, int a);
-int integer(int b, int a);
 
 int main(void){
-    int n = 6;//(rand() % 1e10) + 1;
-    int m = 6;//(rand() % 1e10) + 1;
-    int a = 4;//(rand() % 1e10) + 1;
-    int ans = square(n, m, a);
+    unsigned long long int a, m, n;
+    std::cin >> n >> m >> a;
+    unsigned long long int ans = ((n % a == 0 ? (n / a) : (n / a + 1)) * (m % a == 0 ? (m / a) : (m / a + 1)));
     std::cout << ans << "\n";
     return 0;
-}
-
-int square(int n, int m, int a){
-    n = integer(n, a);
-    m = integer(m, a);
-    return n * m;
-}
-
-int integer(int b, int a){
-    if(b % a == 0){
-        return b / a;
-    }
-    return b / a + 1;
 }
