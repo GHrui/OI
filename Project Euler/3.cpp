@@ -1,7 +1,7 @@
-/*
+/**
  * Largest prime factor
  * O(n)
-**/
+*/
 
 #include<iostream>
 

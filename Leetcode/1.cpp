@@ -1,7 +1,7 @@
-/*
+/**
  * Two Sum
  * O(n ^ 2) = O((n-1) * (n-2) / 2)
-**/
+*/
 
 #include<iostream>
 

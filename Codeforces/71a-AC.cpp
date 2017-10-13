@@ -1,7 +1,7 @@
-/*
+/**
  * Way Too Long Words
  * O(n)
-**/
+*/
 
 #include<iostream>
 #include<string>

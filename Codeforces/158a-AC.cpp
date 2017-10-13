@@ -1,7 +1,7 @@
-/*
+/**
  * Next Round
  * O(n)
-**/
+*/
 
 #include<iostream>
 
