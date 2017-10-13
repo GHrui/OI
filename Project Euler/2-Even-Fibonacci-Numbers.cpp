@@ -8,7 +8,6 @@ int main (void) {
     int b = 1;
     int temp = 1;
     int sum = 0;
-
     while (sum < up) {
         a = temp;
         b = a;

@@ -1,7 +1,7 @@
 #include<iostream>
 
 int main (void) {
-    unsigned  long long q = 600851475143ULL;
+    unsigned long long q = 600851475143ULL;
     //int q = 6857;
     int i = 2;
     int array[10] = {0};
