@@ -1,4 +1,7 @@
-// Way Too Long Words
+/*
+ * Way Too Long Words
+ * O(n)
+**/
 
 #include<iostream>
 #include<string>

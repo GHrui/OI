@@ -1,3 +1,8 @@
+/*
+ * Multiples Of 3 And 5
+ * O(1)
+**/
+
 #include<iostream>
 
 int func(int a, int d);

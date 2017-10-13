@@ -1,14 +1,19 @@
+/*
+ * Even Fibonacci Numbers
+ * O(n)
+**/
+
 #include<iostream>
 
 int isEven(int a);
 
 int main (void) {
-    int up = 4000000;
+    int n = 4000000;
     int a = 1;
     int b = 1;
     int temp = 1;
     int sum = 0;
-    while (sum < up) {
+    while (sum < n) {
         a = temp;
         b = a;
         temp = a + b;

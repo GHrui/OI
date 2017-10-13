@@ -1,4 +1,7 @@
-// Watermelon
+/* 
+ * Watermelon
+ * O(1)
+**/
 
 #include<iostream>
 

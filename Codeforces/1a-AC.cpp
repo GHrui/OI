@@ -1,4 +1,7 @@
-// Theatre Square
+/*
+ * Theatre Square
+ * O(1)
+**/
 
 #include<iostream>
 

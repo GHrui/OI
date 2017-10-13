@@ -1,16 +1,21 @@
+/*
+ * Largest prime factor
+ * O(n)
+**/
+
 #include<iostream>
 
 int main (void) {
-    unsigned long long q = 600851475143ULL;
+    unsigned long long n = 600851475143ULL;
     //int q = 6857;
     int i = 2;
     int array[10] = {0};
     int j = 0;
-    while (i <= q) {
-        if (q % i == 0) {
+    while (i <= n) {
+        if (n % i == 0) {
             array[j] = i;
             ++j;
-            q /= i;
+            n /= i;
         }
         ++i;
     }
